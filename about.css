@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ .section{
+    background-color:rgb(133, 186, 235);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    
+    margin: 5rem auto 0 auto;
+ }
+ #img{
+    height:550px;
+    box-shadow: 10px 10px  orangered;
+}
+ .section h1{
+margin: 0;
+color: rgb(7, 7, 7);
+ }
+ .section p{
+    color: rgb(48, 0, 0);
+    margin-right: 15px;
+ }
+ .text a{
+   text-decoration: none;
+   color:  rgb(0, 0, 0);
+ }
+ 
+ #git{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ }
+
+ #git:hover{
+   opacity:.5;
+ }
+ @media screen and (max-width:600px) {
+   
+   #img{
+      height:300px;
+      width:300%;
+   }
+ }

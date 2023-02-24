@@ -1,0 +1,56 @@
+body{
+    margin: 10%;
+}
+#parent{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+div.polaroid {
+     display: flex;
+     flex-direction: column;
+ align-items: center;
+    width:50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+
+  }
+  img{
+ 
+    border-radius: 50%;
+    width: 80%;
+    margin-top:25px;
+
+  }
+
+  img:hover{
+    opacity: 0.5;
+  }
+
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+
+
+
+  span{
+    font-weight:700px;
+    font-size: 50px;
+  }
+  
+  h1{
+    color: yellowgreen;
+    font-weight: 500px;
+    font-size: 60px;
+  }
